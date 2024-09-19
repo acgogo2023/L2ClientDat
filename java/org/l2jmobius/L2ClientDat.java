@@ -81,21 +81,21 @@ public class L2ClientDat extends JFrame
 {
 	private static final Logger LOGGER = Logger.getLogger(L2ClientDat.class.getName());
 	
-	private static final String DAT_STRUCTURE_STR = "Structures";
-	public static final String ENABLED_STR = "Enabled";
-	public static final String DISABLED_STR = "Disabled";
-	private static final String OPEN_BTN_STR = "Open";
-	private static final String SAVE_TXT_BTN_STR = "Save (TXT)";
-	private static final String SAVE_DAT_BTN_STR = "Save (DAT)";
-	private static final String DECRYPT_ALL_BTN_STR = "Unpack all";
-	private static final String ENCRYPT_ALL_BTN_STR = "Pack all";
-	private static final String PATCH_ALL_BTN_STR = "Patch all";
-	private static final String SELECT_BTN_STR = "Select";
-	private static final String FILE_SELECT_BTN_STR = "File select";
-	private static final String ABORT_BTN_STR = "Abort";
-	private static final String SOURCE_ENCRYPT_TYPE_STR = "Source";
-	public static final String DETECT_STR = "Detect";
-	public static final String NO_TRANSLATE_STR = "No translate";
+        private static final String DAT_STRUCTURE_STR = "结构";
+        public static final String ENABLED_STR = "启用";
+        public static final String DISABLED_STR = "禁用";
+        private static final String OPEN_BTN_STR = "打开";
+        private static final String SAVE_TXT_BTN_STR = "保存（TXT）";
+        private static final String SAVE_DAT_BTN_STR = "保存（DAT）";
+        private static final String DECRYPT_ALL_BTN_STR = "全部解包";
+        private static final String ENCRYPT_ALL_BTN_STR = "全部打包";
+        private static final String PATCH_ALL_BTN_STR = "全部修补";
+        private static final String SELECT_BTN_STR = "选择";
+        private static final String FILE_SELECT_BTN_STR = "文件选择";
+        private static final String ABORT_BTN_STR = "中止";
+        private static final String SOURCE_ENCRYPT_TYPE_STR = "来源";
+        public static final String DETECT_STR = "检测";
+        public static final String NO_TRANSLATE_STR = "不翻译";
 	
 	public static boolean DEV_MODE = false;
 	
